@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaerin's Portfolio</title>
+    
+    <script src="https://kit.fontawesome.com/397767baf5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="js/particles.js"></script>
+    <script src="js/Typing.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/webAuto.js"></script>
+    <script src="js/mobileSlide.js"></script>
+    <script src="js/homeAbout.js"></script>
+</head>
+<body>
+    <!--right icon menu-->
+    <ul id="menu">
+        <li data-menuanchor="anchor1">
+            <a href="#anchor1"><i class="fas fa-laptop-code"></i></a>
+            <span>Home</span>
+        </li>
+        <li data-menuanchor="anchor2">
+            <a href="#anchor2"><i class="fas fa-pencil-ruler"></i></a>
+            <span>Project 01</span>
+        </li>
+        <li data-menuanchor="anchor3">
+            <a href="#anchor3"><i class="fas fa-ruler-combined"></i></a>
+            <span>Project 02</span>
+        </li>
+        <li data-menuanchor="anchor4">
+            <a href="#anchor4"><i class="fas fa-crop-alt"></i></a>
+            <span>Project 03</span>
+        </li>
+        <li data-menuanchor="anchor5">
+            <a href="#anchor5"><i class="fas fa-swatchbook"></i></a>
+            <span>Project 04</span>
+        </li>
+        <li data-menuanchor="anchor6">
+            <a href="#anchor6"><i class="fas fa-layer-group"></i></a>
+            <span>About Me</span>
+        </li>
+    </ul>
+    
+    <div id="fullpage">        
+        <!--section 1 : home-->
+        <div class="section section-01">
+            <!-- particles.js container -->
+            <div id="particles-js"></div>
+            
+            <div id="homeleft_grid">
+                <div id="about">
+                    <ul class="about_icon">
+                        <li><a href="#"><i class="far fa-address-card"></i></a>
+                            <ul class="burble">
+                                <li>채린 / CHAE RIN</li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="fas fa-mobile-alt"></i></a>
+                            <ul class="burble">
+                                <li>010-xxxx-xxxx</li>
+                            </ul>
+                        </li>
+                        <li><a href="#"><i class="far fa-envelope"></i></a>
+                            <ul class="burble">
+                                <li>@gmail.com</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h3><em>Portfolio</em></h3>
+                </div>
+               
+                <!--Typing-->
+                <div class="typingbox">
+                    <h1>WED DEVELOPER</h1>
+                    <div class="typing-txt">
+                        <ul>
+                            <li>HTML / CSS / JAVA Script / J-QUERY / JSON / AJAX / OPEN API / REACT</li>
+                        </ul>
+                    </div>
+                    <p class="typing"></p>
+                </div>
+            </div>
+        </div>
+        
+        <!--section 2 : 프로젝트 01-->
+        <div class="section section-02">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>01</em></h1>
+                    <h2>KOYBO</h2>
+                    <h4>Open API, Json</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>도서 브랜드 교보문고의 클론사이트입니다.<br><br>
+
+                        전체적으로 밝은 톤에 네이비 컬러로 포인트를 주어 사용자의 시선을 끌고<br>
+                        복잡한 레이아웃을 간결하고 깔끔하게 정리하여 편의성을 제공합니다.<br><br>
+
+                        Kakao Open Api를 통해 도서 이미지 및 데이터를 불러왔으며 <br>
+                        이미지 슬라이드, 멀티페이지 같은 다양한 인터렉션 요소를 추가하여 <br>
+                        사용자의 흥미를 유발시켰습니다.<br><br>
+
+                        도서를 구매할 수 있는 Sub Page도 함께 제작하였습니다.</p>
+                    <a href="https://cokeeh.github.io/book2/kb/index.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="https://cokeeh.github.io/book2/kb/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="koybo">
+                            <li><img src="img/bookmain.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="koybobox" onclick="window.open('https://cokeeh.github.io/book2/kb/index.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--section 3 : 프로젝트 02-->
+        <div class="section section-03">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>02</em></h1>
+                    <h2>FILA</h2>
+                    <h4>REACT</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>스포츠 브랜드 FILA의 클론사이트입니다.<br><br>
+                        React Bootstrap을 사용하여 모바일, 태블릿 등<br>
+                        이용 환경에 따라 반응할 수 있도록 제작했습니다.<br>
+
+                        또한, Router를 통해 각각의 URL에 필요한 데이터를 불러오고<br>
+                         Redux로 상태관리를 효율적이게 만들었습니다. <br><br>
+
+                        상품과 인물 이미지를 적절하게 배치하여<br>
+                        사용자에게 몰입감을 주도록 했습니다. <br><br>
+                        상품을 구매할 수 있는 Sub Page도 함께 제작하였습니다.</p>
+                    <a href="https://cokeeh.github.io/" target="_blank" class="btn_main">MAIN PAGE</a>
+                </div>
+
+                <div class="mobile">
+                    <div class="mobile_box" onclick="window.open('https://cokeeh.github.io/')">
+                        <ul>
+                            <li><img src="img/1.gif" alt=""></li>
+                            <li><img src="img/2.gif" alt=""></li>
+                            <li><img src="img/3.gif" alt=""></li>
+                            <li><img src="img/4.gif" alt=""></li>
+                            <li><img src="img/5.gif" alt=""></li>
+                            <li><img src="img/6.gif" alt=""></li>
+                            <li><img src="img/7.gif" alt=""></li>
+                            <li><img src="img/8.gif" alt=""></li>
+                            <li><img src="img/9.gif" alt=""></li>
+                            <li><img src="img/10.gif" alt=""></li>
+                            <li><img src="img/11.gif" alt=""></li>
+                            <li><img src="img/12.gif" alt=""></li>
+                            <li><img src="img/13.gif" alt=""></li>
+                            <li><img src="img/14.gif" alt=""></li>
+                            <li><img src="img/15.gif" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="fila">
+                            <li><img src="img/filamain.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="filabox" onclick="window.open('https://cokeeh.github.io/')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--section 4 : 프로젝트 03-->
+        <div class="section section-04">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>03</em></h1>
+                    <h2>GAMEHOAH</h2>
+                    <h4>Responsive Website</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>해외 게임 쇼핑몰 GAMEHOAH의 클론사이트입니다. <br><br>
+                        미디어쿼리를 사용하여 반응형 웹사이트로 제작되었습니다.<br><br>
+
+                        전체적으로 어둡고 짙은 색감을 사용하여 콘텐츠에 시선이 가도록 하였고<br>
+                        포인트 컬러로 자칫 무거울 수 있는 분위기를 환기시켰습니다.<br>
+                        반복되는 구성으로 사용자에게 익숙함을 느낄 수 있도록 했습니다.<br><br>
+
+                        블로그 형식의 Sub Page를 함께 제작하였습니다.</p>
+                    <a href="https://cokeeh.github.io/responsiveWeb2/gamehoah/index.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="https://cokeeh.github.io/responsiveWeb2/gamehoah/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="gamemobile">
+                    <div class="gamemobile_box" onclick="window.open('https://cokeeh.github.io/responsiveWeb2/gamehoah/index.html')">
+                        <ul>
+                            <li><img src="img/16.gif" alt=""></li>
+                            <li><img src="img/17.gif" alt=""></li>
+                            <li><img src="img/18.gif" alt=""></li>
+                            <li><img src="img/19.gif" alt=""></li>
+                            <li><img src="img/20.gif" alt=""></li>
+                            <li><img src="img/21.gif" alt=""></li>
+                            <li><img src="img/22.gif" alt=""></li>
+                            <li><img src="img/23.gif" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="game">
+                            <li><img src="img/gamemain.png" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="gamebox" onclick="window.open('https://cokeeh.github.io/responsiveWeb2/gamehoah/index.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--section 5 : 프로젝트 04-->
+        <div class="section section-05">
+            <div class="bodywrap">
+                <div class="introduce">
+                    <h1>PROJECT <em>04</em></h1>
+                    <h2>MARKET KURLY</h2>
+                    <h4>Shopping Mall</h4>
+                    <h5>POINT COLOR</h5>
+                    <ul class="color">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>오픈마켓 마켓컬리의 클론사이트입니다.<br><br>
+
+                        간결한 레이아웃으로 상품에 집중할 수 있도록 구성을 배치했습니다.<br>
+                        마켓컬리의 브랜드 컬러를 포인트로 넣어 브랜드 이미지를 확실히 하고자 했습니다.<br><br>
+
+                        JSON을 이용하여 상품 이미지 및 데이터를 관리하고<br>
+                        이미지 슬라이드, 메뉴 등에 동적인 요소를 추가했습니다.<br><br>
+
+                        상품을 구매할 수 있는 Sub Page를 함께 제작했습니다.</p>
+                    <a href="https://cokeeh.github.io/shoppingMall2/mk/index.html" target="_blank" class="btn_main">MAIN PAGE</a>
+                    <a href="https://cokeeh.github.io/shoppingMall2/mk/sub.html" target="_blank" class="btn_sub">SUB PAGE</a>
+                </div>
+
+                <div class="webpage">
+                    <div class="bodyimg">
+                        <ul id="mk">
+                            <li><img src="img/mkmain.jpeg" alt="web1"></li>
+                        </ul>
+                    </div>
+
+                    <div class="bhoverbox" id="mkbox" onclick="window.open('https://cokeeh.github.io/shoppingMall2/mk/index.html')">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--section 6 : About Me-->
+        <div class="section section-06">
+            <div class="profile_wrap">
+                <!--이력서-->
+                <div class="resume">
+                    <h3>ABOUT <em>ME</em></h3>
+
+                    <div class="graph">
+                        <p>“ 끊임없이 도전하며 성장하는 ”</p>
+                        <div class="graph_line"><img src="img/graph_line.png" alt="graph"></div>
+                    </div>
+                    
+                    <div class="career">
+                        <h3>EDUCATION</h3>
+                        <table>
+                            <tr>
+                                <td>2015</td>
+                                <th>효원고등학교 졸업</th>
+                            </tr>
+                            <tr>
+                                <td>2020</td>
+                                <th>한신대학교 중국어문화학부 졸업</th>
+                            </tr>
+                        </table>
+                        <h3>GOAL</h3>
+                        <p>현재에 안주하지 않고 끊임없이 도전하며<br>
+                         성장하는 열정적인 개발자가 되겠습니다.</p>
+                    </div>
+
+                    <div class="career">
+                        <h3>LICENCE</h3>
+                        <p>컴퓨터활용능력2급<br>
+                        hsk4급</p><br><br><br>                      
+                        <h3>TRAINING</h3>
+                        <p>더조은컴퓨터아트학원<br>
+                        <span>웹퍼블리셔 UI/UX 프론트엔드 양성과정 수료 (2021년)</span></p>
+                    </div>
+                    
+                    <div class="career">
+                        <h3>SKILL</h3>
+                        <table id="skill">
+                            <tr>
+                                <td class="webicon"><img src="img/html5_w.png" alt="htmlicon"></td>
+                                <td class="webicon"><img src="img/css3_w.png" alt="cssicon"></td>
+                                <td class="webicon"><img src="img/JS_w.png" alt="jsicon"></td>
+                            </tr>
+                            <tr>
+                                <td class="other"><img src="img/jquery_w.png" alt="jqueryicon"></td>
+                                <td class="other"><img src="img/json_w.png" alt="jsonicon"></td>
+                                <td class="other"><img src="img/ajax.png" alt="ajaxicon"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <!--프로필-->
+                <div class="profile">
+                    <div class="myphoto">
+                        <div class="profileimg">
+                            <img src="img/vvv.jpg" alt="myphoto">
+                        </div>
+                        
+                        <div class="profiletxt">
+                            <h3>채린&ensp;<em>WEB Developer</em></h3>
+                            <table>
+                                <tr>
+                                    <th>BIRTH</th>
+                                    <td>1996. 03. 03.</td>
+                                </tr>
+                                <tr>
+                                    <th>MOBILE</th>
+                                    <td>010-xxxx-xxxx</td>
+                                </tr>
+                                <tr>
+                                    <th>E-MAIL</th>
+                                    <td>@gmail.com</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
